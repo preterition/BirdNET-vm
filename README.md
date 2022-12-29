@@ -1,10 +1,10 @@
 <h1 align="center"><a href="https://github.com/mcguirepr89/BirdNET-Pi/blob/main/LICENSE">Review the license!!</a></h1>
-<h1 align="center">You may not use BirdNET-Pi to develop a commercial product!!!!</h1>
+<h1 align="center">You may not use BirdNET-VM to develop a commercial product!!!! Its a direct fork of BirdNET-Pi using the same license</h1>
 <h1 align="center">
-  BirdNET-Pi
+  BirdNET-VM
 </h1>
 <p align="center">
-A realtime acoustic bird classification system for the Raspberry Pi 4B, 3B+, and 0W2
+A realtime acoustic bird classification system to build a vm
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/60325264/140656397-bf76bad4-f110-467c-897d-992ff0f96476.png" />
@@ -82,16 +82,14 @@ Currently listening in these countries . . . that I know of . . .
 * Localization supported
 
 ## Requirements
-* A Raspberry Pi 4B, Raspberry Pi 3B+, or Raspberry Pi 0W2 (The 3B+ and 0W2 must run on RaspiOS-ARM64-**Lite**)
-* An SD Card with the **_64-bit version of RaspiOS_** installed (please use Bullseye) -- Lite is recommended, but the installation works on RaspiOS-ARM64-Full as well. Downloads available within the [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
-* A USB Microphone or Sound Card
+* A virtual machine x64 with 2G Ram and 12G storage 2Cpu's
+* A RTSP stream you want to use
+* (Optional id you know how to mount a device in a VM) SB Microphone or Sound Card
 
 ## Installation
-[A comprehensive installation guide is available here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/Installation-Guide).
+Still Working on this.  Mostly we are going to try to modify the existing install script to recognize that we are not on arm and install the appropriate packages and scripts
 
-Please note that installing BirdNET-Pi on top of other servers is not supported. If this is something that you require, please open a discussion for your idea and inquire about how to contribute to development.
-
-[Raspberry Pi 3B[+] and 0W2 installation guide available here](https://github.com/mcguirepr89/BirdNET-Pi/wiki/RPi0W2-Installation-Guide)
+``we are still using the standard BirdNET installer``
 
 The system can be installed with:
 ```
