@@ -93,7 +93,7 @@ Still Working on this.  Mostly we are going to try to modify the existing instal
 
 The system can be installed with:
 ```
-curl -s https://raw.githubusercontent.com/mcguirepr89/BirdNET-Pi/main/newinstaller.sh | bash
+curl -s https://raw.githubusercontent.com/preterition/BirdNET-vm/main/newinstaller.sh | bash
 ```
 The installer takes care of any and all necessary updates, so you can run that as the very first command upon the first boot, if you'd like.
 
